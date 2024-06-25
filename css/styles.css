@@ -4,9 +4,9 @@
     --secondary-font: 'Raleway', sans-serif;
 
     /* Colors */
-    --primary-cl: #2e2f42;
+    --primary-cl: #434455;
+    --dark-cl: #2e2f42;
     --secondary-cl: #fff;
-    --text-cl: #434455;
     --brand-cl: #4d5ae5;
     --ligth-cl: #f4f4fd;
     --pressed-cl: #404bbf
@@ -60,7 +60,9 @@ address {
     font-weight: 700;
     font-size: 36px; 
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: var(--dark-cl);
 }
 
 .section-list {}
@@ -71,10 +73,15 @@ address {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark-cl);
 }
 
 .section-text {
-    color: var(--text-cl);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 .section-ilustration {}
@@ -85,14 +92,14 @@ address {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17; 
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-cl);
 }
 
 .header-logo-accent {
-    color: var(--primary-cl);
+    color: var(--dark-cl);
 }
 
 .footer-logo-accent{
@@ -110,7 +117,11 @@ address {
 .nav-item {}
 
 .nav-link {
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
     font-weight: 500;
+    color:var(--dark-cl)
 }
 
 .nav-link:hover,
@@ -124,7 +135,9 @@ address {
 .address-item {}
 
 .address-link {
-    color: var(--text-cl);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 .address-link:hover,
@@ -135,19 +148,22 @@ address {
 
 /* #region Hero */
 .hero {
-    background-color: var(--primary-cl);
+    background-color: var(--dark-cl);
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--secondary-cl);
 }
 
 .hero-button {
     font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.04em;
     color: var(--secondary-cl);
     background-color:var(--brand-cl);
@@ -173,7 +189,7 @@ address {
     background-color: var(--ligth-cl);
 }
 
-.team-list{
+.team-item{
     background-color: var(--secondary-cl);
 }
 
@@ -192,10 +208,13 @@ address {
 
 /* #region Footer */
 .section-footer {
-    background-color: var(--primary-cl);
+    background-color: var(--dark-cl);
 }
 
 .footer-text {
     color: var(--ligth-cl);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
 }
 /* #endregion */
