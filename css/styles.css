@@ -43,7 +43,7 @@ address {
 /* #endregion */
 
 /* #region Common */
-.visually-hidden {
+/*.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -54,7 +54,7 @@ address {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
-}
+}*/
 
 .section-title{
     font-weight: 700;
@@ -62,6 +62,7 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--dark-cl);
 }
 
@@ -74,7 +75,6 @@ address {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: var(--dark-cl);
 }
 
